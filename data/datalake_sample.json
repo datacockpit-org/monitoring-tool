@@ -1,0 +1,92 @@
+{
+    "duma": {
+      "id": 1,
+      "name": "Duma",
+      "quality": 91,
+      "usage": 52,
+      "prepared_by": "Chris Du",
+      "created_on": "7-16-2018",
+      "updated_on": "9-28-2021"
+    },
+    "stalwart": {
+      "id": 2,
+      "name": "Stalwart",
+      "quality": 87,
+      "usage": 95,
+      "prepared_by": "Pamela C. Michels",
+      "created_on": "7-5-2015",
+      "updated_on": "5-14-2022"
+    },
+    "besttry": {
+      "id": 3,
+      "name": "BestTry",
+      "quality": 65,
+      "usage": 56,
+      "prepared_by": "Gavin M. Elliott",
+      "created_on": "7-20-2019",
+      "updated_on": "5-19-2020"
+    },
+    "paragon": {
+      "id": 4,
+      "name": "Paragon",
+      "quality": 75,
+      "usage": 35,
+      "prepared_by": "John S. Page",
+      "created_on": "12-11-2020",
+      "updated_on": "1-2-2021"
+    },
+    "clipart": {
+      "id": 5,
+      "name": "Clipart",
+      "quality": 85,
+      "usage": 20,
+      "prepared_by": "Jeff M. Windsor",
+      "created_on": "7-7-2022",
+      "updated_on": ""
+    },
+    "depay": {
+        "id": 6,
+        "name": "Depay",
+        "quality": 91,
+        "usage": 52,
+        "prepared_by": "Christa B. Taylor",
+        "created_on": "7-16-2018",
+        "updated_on": "9-28-2021"
+    },
+    "aloevera": {
+        "id": 7,
+        "name": "Aloevera",
+        "quality": 87,
+        "usage": 95,
+        "prepared_by": "Pamela C. Michels",
+        "created_on": "7-5-2015",
+        "updated_on": "5-14-2022"
+    },
+    "shopium": {
+        "id": 8,
+        "name": "Shopium",
+        "quality": 65,
+        "usage": 56,
+        "prepared_by": "Gavin M. Elliott",
+        "created_on": "7-20-2019",
+        "updated_on": "5-19-2020"
+    },
+    "jing": {
+        "id": 9,
+        "name": "Jing",
+        "quality": 75,
+        "usage": 35,
+        "prepared_by": "John S. Page",
+        "created_on": "12-11-2020",
+        "updated_on": "1-2-2021"
+    },
+    "ecom101": {
+        "id": 10,
+        "name": "Ecom101",
+        "quality": 85,
+        "usage": 20,
+        "prepared_by": "Jeff M. Windsor",
+        "created_on": "7-7-2022",
+        "updated_on": ""
+    }
+}

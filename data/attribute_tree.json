@@ -1,0 +1,4822 @@
+{
+    "name": "Duma | EventSchema",
+    "children": [{
+        "name": "_experience",
+        "children": [{
+            "name": "analytics",
+            "children": [{
+                "name": "customDimensions",
+                "children": [{
+                    "name": "eVars",
+                    "children": [{
+                        "name": "eVar10",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+
+                    }, {
+                        "name": "eVar11",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar12",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar13",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar14",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar15",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar16",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar17",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar18",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "eVar19",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }]
+                }, {
+                    "name": "postalCode",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 86
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 87
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 4,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 7,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 1,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "props",
+                    "children": [{
+                        "name": "prop59",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 5
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "prop75",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 5
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }]
+                }]
+            }, {
+                "name": "endUser",
+                "children": [{
+                    "name": "firstTimestamp",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 3,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "firstWeb",
+                    "children": [{
+                        "name": "webPageDetails",
+                        "children": [{
+                            "name": "URL",
+                            "in_schema": true,
+                            "is_leaf": true,
+                            "quality_insights": {
+                                "correctness": {
+                                    "name": "Correctness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 75
+                                },
+                                "completeness": {
+                                    "name": "Completeness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 86
+                                },
+                                "objectivity": {
+                                    "name": "Objectivity",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                }
+                            },
+                            "usage_insights": {
+                                "dashboard": {
+                                    "name": "Build Dashboards",
+                                    "description": "",
+                                    "value": 2,
+                                    "unit": ""
+                                },
+                                "reports": {
+                                    "name": "Generate Reports",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "ml_models": {
+                                    "name": "Train ML Models",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                }
+                            }
+                        }, {
+                            "name": "name",
+                            "in_schema": true,
+                            "is_leaf": true,
+                            "quality_insights": {
+                                "correctness": {
+                                    "name": "Correctness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                },
+                                "completeness": {
+                                    "name": "Completeness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 86
+                                },
+                                "objectivity": {
+                                    "name": "Objectivity",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                }
+                            },
+                            "usage_insights": {
+                                "dashboard": {
+                                    "name": "Build Dashboards",
+                                    "description": "",
+                                    "value": 1,
+                                    "unit": ""
+                                },
+                                "reports": {
+                                    "name": "Generate Reports",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "ml_models": {
+                                    "name": "Train ML Models",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                }
+                            }
+                        }]
+                    }, {
+                        "name": "webReferrer",
+                        "children": [{
+                            "name": "URL",
+                            "in_schema": true,
+                            "is_leaf": true,
+                            "quality_insights": {
+                                "correctness": {
+                                    "name": "Correctness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                },
+                                "completeness": {
+                                    "name": "Completeness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 35
+                                },
+                                "objectivity": {
+                                    "name": "Objectivity",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                }
+                            },
+                            "usage_insights": {
+                                "dashboard": {
+                                    "name": "Build Dashboards",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "reports": {
+                                    "name": "Generate Reports",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "ml_models": {
+                                    "name": "Train ML Models",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                }
+                            }
+                        }, {
+                            "name": "type",
+                            "in_schema": true,
+                            "is_leaf": true,
+                            "quality_insights": {
+                                "correctness": {
+                                    "name": "Correctness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                },
+                                "completeness": {
+                                    "name": "Completeness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                },
+                                "objectivity": {
+                                    "name": "Objectivity",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                }
+                            },
+                            "usage_insights": {
+                                "dashboard": {
+                                    "name": "Build Dashboards",
+                                    "description": "",
+                                    "value": 3,
+                                    "unit": ""
+                                },
+                                "reports": {
+                                    "name": "Generate Reports",
+                                    "description": "",
+                                    "value": 6,
+                                    "unit": ""
+                                },
+                                "ml_models": {
+                                    "name": "Train ML Models",
+                                    "description": "",
+                                    "value": 2,
+                                    "unit": ""
+                                }
+                            }
+                        }]
+                    }]
+                }]
+            }, {
+                "name": "environment",
+                "children": [{
+                    "name": "browserID",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 76
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "operatingSystemID",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 87
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }]
+            }, {
+                "name": "event1to100",
+                "children": [{
+                    "name": "event2",
+                    "children": [{
+                        "name": "value",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }]
+                }]
+            }, {
+                "name": "session",
+                "children": [{
+                    "name": "depth",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 90
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 3,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 1,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "num",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "search",
+                    "children": [{
+                        "name": "isPaid",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "keywords",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 90
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 3,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 5,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 7,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "pageDepth",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 93
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }, {
+                        "name": "searchEngine",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 80
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 4,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 9,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 4,
+                                "unit": ""
+                            }
+                        }
+                    }]
+                }, {
+                    "name": "timestamp",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 95
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 5,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 3,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 8,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "web",
+                    "children": [{
+                        "name": "webReferrer",
+                        "children": [{
+                            "name": "URL",
+                            "in_schema": true,
+                            "is_leaf": true,
+                            "quality_insights": {
+                                "correctness": {
+                                    "name": "Correctness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                },
+                                "completeness": {
+                                    "name": "Completeness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 48
+                                },
+                                "objectivity": {
+                                    "name": "Objectivity",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                }
+                            },
+                            "usage_insights": {
+                                "dashboard": {
+                                    "name": "Build Dashboards",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "reports": {
+                                    "name": "Generate Reports",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "ml_models": {
+                                    "name": "Train ML Models",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                }
+                            }
+                        }, {
+                            "name": "type",
+                            "in_schema": true,
+                            "is_leaf": true,
+                            "quality_insights": {
+                                "correctness": {
+                                    "name": "Correctness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 99
+                                },
+                                "completeness": {
+                                    "name": "Completeness",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 48
+                                },
+                                "objectivity": {
+                                    "name": "Objectivity",
+                                    "unit": "%",
+                                    "description": "",
+                                    "value": 100
+                                }
+                            },
+                            "usage_insights": {
+                                "dashboard": {
+                                    "name": "Build Dashboards",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "reports": {
+                                    "name": "Generate Reports",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                },
+                                "ml_models": {
+                                    "name": "Train ML Models",
+                                    "description": "",
+                                    "value": 0,
+                                    "unit": ""
+                                }
+                            }
+                        }]
+                    }]
+                }]
+            }]
+        }, {
+            "name": "target",
+            "children": [{
+                "name": "supplementalDataID",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }]
+    }, {
+        "name": "_id",
+        "in_schema": true,
+        "is_leaf": true,
+        "quality_insights": {
+            "correctness": {
+                "name": "Correctness",
+                "unit": "%",
+                "description": "",
+                "value": 99
+            },
+            "completeness": {
+                "name": "Completeness",
+                "unit": "%",
+                "description": "",
+                "value": 48
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            }
+        },
+        "usage_insights": {
+            "dashboard": {
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            },
+            "reports": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            }
+        }
+    }, {
+        "name": "application",
+        "children": [{
+            "name": "crashes",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "firstLaunches",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "launches",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "name",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "commerce",
+        "children": [{
+            "name": "checkouts",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "order",
+            "children": [{
+                "name": "currencyCode",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "purchaseID",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "productListAdds",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "productListOpens",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "productListViews",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "productViews",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "purchases",
+            "children": [{
+                "name": "value",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }]
+    }, {
+        "name": "dataSource",
+        "children": [{
+            "name": "_id",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "device",
+        "children": [{
+            "name": "colorDepth",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "screenHeight",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 5,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 3,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "screenWidth",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 5,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 3,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "typeID",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "typeIDService",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "endUserIDs",
+        "children": [{
+            "name": "_experience",
+            "children": [{
+                "name": "aaid",
+                "children": [{
+                    "name": "id",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "namespace",
+                    "children": [{
+                        "name": "code",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }]
+                }, {
+                    "name": "primary",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }]
+            }, {
+                "name": "mcid",
+                "children": [{
+                    "name": "id",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "namespace",
+                    "children": [{
+                        "name": "code",
+                        "in_schema": true,
+                        "is_leaf": true,
+                        "quality_insights": {
+                            "correctness": {
+                                "name": "Correctness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 99
+                            },
+                            "completeness": {
+                                "name": "Completeness",
+                                "unit": "%",
+                                "description": "",
+                                "value": 48
+                            },
+                            "objectivity": {
+                                "name": "Objectivity",
+                                "unit": "%",
+                                "description": "",
+                                "value": 100
+                            }
+                        },
+                        "usage_insights": {
+                            "dashboard": {
+                                "name": "Build Dashboards",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "reports": {
+                                "name": "Generate Reports",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "ml_models": {
+                                "name": "Train ML Models",
+                                "description": "",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        }
+                    }]
+                }, {
+                    "name": "primary",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }]
+            }]
+        }]
+    }, {
+        "name": "environment",
+        "children": [{
+            "name": "browserDetails",
+            "children": [{
+                "name": "acceptLanguage",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "cookiesEnabled",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 3,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 4,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 2,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "javaEnabled",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 5,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 3,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 5,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "javaScriptEnabled",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "javaScriptVersion",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "userAgent",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "viewportHeight",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "viewportWidth",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "ipV4",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "operatingSystem",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "operatingSystemVersion",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "identityMap",
+        "in_schema": true,
+        "is_leaf": true,
+        "quality_insights": {
+            "correctness": {
+                "name": "Correctness",
+                "unit": "%",
+                "description": "",
+                "value": 99
+            },
+            "completeness": {
+                "name": "Completeness",
+                "unit": "%",
+                "description": "",
+                "value": 48
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            }
+        },
+        "usage_insights": {
+            "dashboard": {
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 6,
+                "unit": ""
+            },
+            "reports": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 5,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 7,
+                "unit": ""
+            }
+        }
+    }, {
+        "name": "key",
+        "in_schema": true,
+        "is_leaf": true,
+        "quality_insights": {
+            "correctness": {
+                "name": "Correctness",
+                "unit": "%",
+                "description": "",
+                "value": 99
+            },
+            "completeness": {
+                "name": "Completeness",
+                "unit": "%",
+                "description": "",
+                "value": 48
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            }
+        },
+        "usage_insights": {
+            "dashboard": {
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            },
+            "reports": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 2,
+                "unit": ""
+            }
+        }
+    }, {
+        "name": "marketing",
+        "children": [{
+            "name": "trackingCode",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "placeContext",
+        "children": [{
+            "name": "geo",
+            "children": [{
+                "name": "_schema",
+                "children": [{
+                    "name": "latitude",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }, {
+                    "name": "longitude",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }]
+            }, {
+                "name": "city",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 80
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 92
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 78
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 95,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 80,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 60,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "county",
+                "in_schema": false,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "country",
+                "in_schema": false,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "continent",
+                "in_schema": false,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 2,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 5,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 3,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "countryCode",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 90
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 3,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 5,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 5,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "dmaID",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 70
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "postalCode",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 80
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 70
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 2,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 5,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 3,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "stateProvince",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 65
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 70
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 85,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 91,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 50,
+                        "unit": ""
+                    }
+                }
+            }]
+        }]
+    }, {
+        "name": "productListItems",
+        "in_schema": true,
+        "is_leaf": true,
+        "quality_insights": {
+            "correctness": {
+                "name": "Correctness",
+                "unit": "%",
+                "description": "",
+                "value": 79
+            },
+            "completeness": {
+                "name": "Completeness",
+                "unit": "%",
+                "description": "",
+                "value": 48
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            }
+        },
+        "usage_insights": {
+            "dashboard": {
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 0,
+                "unit": ""
+            },
+            "reports": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 0,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 0,
+                "unit": ""
+            }
+        }
+    }, {
+        "name": "profile",
+        "children": [{
+            "name": "age",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 90
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 70
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 40
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "email_address",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 55
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 80
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 9,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "gender",
+            "in_schema": false,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 40
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 5,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 7,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 9,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "race",
+            "in_schema": false,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 90
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 70
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 5,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 5,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "religion",
+            "in_schema": false,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 90
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 70
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 5,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "citizenship",
+            "in_schema": false,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 79
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 3,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "nationality",
+            "in_schema": false,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 79
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 4,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 3,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "birthplace",
+            "in_schema": false,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 70
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 2,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 1,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 2,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "receivedTimestamp",
+        "in_schema": true,
+        "is_leaf": true,
+        "quality_insights": {
+            "correctness": {
+                "name": "Correctness",
+                "unit": "%",
+                "description": "",
+                "value": 70
+            },
+            "completeness": {
+                "name": "Completeness",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            }
+        },
+        "usage_insights": {
+            "dashboard": {
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            },
+            "reports": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 0,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 1,
+                "unit": ""
+            }
+        }
+    }, {
+        "name": "search",
+        "children": [{
+            "name": "isPaid",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "keywords",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "pageDepth",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 0,
+                    "unit": ""
+                }
+            }
+        }, {
+            "name": "searchEngine",
+            "in_schema": true,
+            "is_leaf": true,
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 99
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "",
+                    "value": 48
+                },
+                "objectivity": {
+                    "name": "Objectivity",
+                    "unit": "%",
+                    "description": "",
+                    "value": 100
+                }
+            },
+            "usage_insights": {
+                "dashboard": {
+                    "name": "Build Dashboards",
+                    "description": "",
+                    "value": 3,
+                    "unit": ""
+                },
+                "reports": {
+                    "name": "Generate Reports",
+                    "description": "",
+                    "value": 3,
+                    "unit": ""
+                },
+                "ml_models": {
+                    "name": "Train ML Models",
+                    "description": "",
+                    "value": 2,
+                    "unit": ""
+                }
+            }
+        }]
+    }, {
+        "name": "timestamp",
+        "in_schema": true,
+        "is_leaf": true,
+        "quality_insights": {
+            "correctness": {
+                "name": "Correctness",
+                "unit": "%",
+                "description": "",
+                "value": 99
+            },
+            "completeness": {
+                "name": "Completeness",
+                "unit": "%",
+                "description": "",
+                "value": 48
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "unit": "%",
+                "description": "",
+                "value": 100
+            }
+        },
+        "usage_insights": {
+            "dashboard": {
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 7,
+                "unit": ""
+            },
+            "reports": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 6,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 4,
+                "unit": ""
+            }
+        }
+    }, {
+        "name": "web",
+        "children": [{
+            "name": "webInteraction",
+            "children": [{
+                "name": "URL",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "linkClicks",
+                "children": [{
+                    "name": "value",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 1,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 1,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 1,
+                            "unit": ""
+                        }
+                    }
+                }]
+            }, {
+                "name": "name",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "type",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "webPageDetails",
+            "children": [{
+                "name": "URL",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "isHomePage",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "name",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "pageViews",
+                "children": [{
+                    "name": "value",
+                    "in_schema": true,
+                    "is_leaf": true,
+                    "quality_insights": {
+                        "correctness": {
+                            "name": "Correctness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 99
+                        },
+                        "completeness": {
+                            "name": "Completeness",
+                            "unit": "%",
+                            "description": "",
+                            "value": 48
+                        },
+                        "objectivity": {
+                            "name": "Objectivity",
+                            "unit": "%",
+                            "description": "",
+                            "value": 100
+                        }
+                    },
+                    "usage_insights": {
+                        "dashboard": {
+                            "name": "Build Dashboards",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "reports": {
+                            "name": "Generate Reports",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        },
+                        "ml_models": {
+                            "name": "Train ML Models",
+                            "description": "",
+                            "value": 0,
+                            "unit": ""
+                        }
+                    }
+                }]
+            }, {
+                "name": "siteSection",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    }
+                }
+            }]
+        }, {
+            "name": "webReferrer",
+            "children": [{
+                "name": "URL",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 1,
+                        "unit": ""
+                    }
+                }
+            }, {
+                "name": "type",
+                "in_schema": true,
+                "is_leaf": true,
+                "quality_insights": {
+                    "correctness": {
+                        "name": "Correctness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 99
+                    },
+                    "completeness": {
+                        "name": "Completeness",
+                        "unit": "%",
+                        "description": "",
+                        "value": 48
+                    },
+                    "objectivity": {
+                        "name": "Objectivity",
+                        "unit": "%",
+                        "description": "",
+                        "value": 100
+                    }
+                },
+                "usage_insights": {
+                    "dashboard": {
+                        "name": "Build Dashboards",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "reports": {
+                        "name": "Generate Reports",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    },
+                    "ml_models": {
+                        "name": "Train ML Models",
+                        "description": "",
+                        "value": 0,
+                        "unit": ""
+                    }
+                }
+            }]
+        }]
+    }]
+}

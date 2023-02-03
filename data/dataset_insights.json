@@ -1,0 +1,67 @@
+{
+    "name": "Duma",
+    "schema": "Event Schema",
+    "description": "Website event records of customers of a fictitious brand, Duma.",
+    "stats": {
+        "columns": 97,
+        "rows": 46110,
+        "no_batches": "24",
+        "prepared_by": "Chris Du",
+        "created_on": "7-16-18",
+        "updated_on": "9-28-21"
+    },
+    "efficacy_insights": {
+        "quality_insights": {
+            "overall": {
+                "name": "Overall",
+                "description": "",
+                "value": 90,
+                "unit": "%"
+            },
+            "completeness": {
+                "name": "Completeness",
+                "description": "non-missing data values.",
+                "value": 70,
+                "unit": "%"
+            },
+            "correctness": {
+                "name": "Correctness",
+                "description": "correct data values.",
+                "value": 100,
+                "unit": "%"
+            },
+            "objectivity": {
+                "name": "Objectivity",
+                "description": "fair data distribution.",
+                "value": 100,
+                "unit": "%"
+            }
+        },
+        "usage_insights": {
+            "overall":{
+                "name": "Overall",
+                "description": "times used in ML models",
+                "value": 70,
+                "unit": ""
+            },
+            "campaigns": {
+                "name": "Generate Reports",
+                "description": "",
+                "value": 70,
+                "unit": ""
+            },
+            "dashboards":{
+                "name": "Build Dashboards",
+                "description": "",
+                "value": 65,
+                "unit": ""
+            },
+            "ml_models": {
+                "name": "Train ML Models",
+                "description": "",
+                "value": 0,
+                "unit": ""
+            }
+        }
+    }
+}

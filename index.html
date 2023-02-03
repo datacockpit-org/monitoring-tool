@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/tabulator/tabulator.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="libs/jquery.min.js"></script>
+  <script src="libs/popper.min.js"></script>
+  <script src="libs/bootstrap/bootstrap.min.js"></script>
+  <script src="libs/luxon.js"></script>
+  <script src="libs/tabulator/tabulator.min.js"></script>
+  <script src="libs/jquery.csvToTable/js/jquery.csvToTable.js"></script>
+  <script src="libs/d3.v3.min.js"></script>
+  <script src="libs/d3-tip.js"></script>
+  <script src="libs/fontawesome.min.js"></script>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">DataCockpit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <div class="nav nav-tabs mr-auto" id="nav-tab-main" role="tablist">
+        <a class="nav-item nav-link active" id="nav-datalake-tab" data-toggle="tab" href="#nav-datalake" role="tab"
+          aria-controls="nav-datalake" aria-selected="true">Data Lake View</a>
+        <a class="nav-item nav-link" id="nav-dataset-tab" data-toggle="tab" href="#nav-dataset" role="tab"
+          aria-controls="nav-dataset" aria-selected="false">Dataset View</a>
+      </div>
+      <form class="form-inline my-2 my-lg-0">
+        <label for="selectDatalake">Data Lake</label>&nbsp;&nbsp;
+        <select class="form-control" id="selectDatalake">
+          <option>Asia/Pacific</option>
+          <option>US West</option>
+          <option>US East</option>
+          <option>EU</option>
+        </select>
+      </form>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="tab-content" id="nav-tabContent-main">
+          <!-- DataLake View -->
+          <div class="tab-pane fade show active" id="nav-datalake" role="tabpanel" aria-labelledby="nav-datalake-tab">
+            <div class="row">
+              <div class="col-md-12">
+                <div id="datalake-table"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dataset View -->
+          <div class="tab-pane fade" id="nav-dataset" role="tabpanel" aria-labelledby="nav-dataset-tab">
+            <div class="row">
+              <div class="col-md-4">
+                <div style="margin-top: 8px"></div>
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title"><span id="datasetName"></span> | <span class="card-subtitle mb-2 text-muted"
+                        id="datasetSchema"></span>
+                    </h4>
+                    <div style="margin-bottom: 12px;">
+                      <span id="datasetDescription"></span>
+                    </div>
+                    <div style="margin-bottom: 8px;">
+                      <span class="badge badge-secondary">Overview</span>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <strong>Columns</strong>: <span id="datasetColumnCount"></span><br />
+                        <strong>Preparer</strong>: <span id="datasetPreparer"></span>
+                      </div>
+                      <div class="col-sm-4">
+                        <strong>Rows</strong>: <span id="datasetRowCount"></span><br />
+                        <strong>Created</strong>: <span id="datasetCreatedOn"></span>
+                      </div>
+                      <div class="col-sm-4">
+                        <strong># Batches</strong>: <span id="noBatches"></span><br />
+                        <strong>Edited</strong>: <span id="datasetUpdatedOn"></span>
+                      </div>
+                    </div>
+                    <hr>
+                    <div style="margin-bottom: 8px;">
+                      <span class="badge badge-secondary">Dataset Preview</span>
+                    </div>
+                    <div style="overflow: auto">
+                      <div id="preview"></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <span class="badge badge-secondary">Data Quality</span>
+                        <div id="quality_insights"></div>
+                      </div>
+                      <div class="col-md-6">
+                        <span class="badge badge-secondary">Data Usage</span>
+                        <div id="usage_insights"></div>
+                      </div>
+                    </div>
+                    <hr>
+                    <span class="badge badge-secondary">Evolution over Time</span>
+                    <select style="display: inline-block; width: 125px; float: right" id="selectChartMetrics">
+                      <option>Data Quality</option>
+                      <option>Data Usage</option>                        
+                    </select>
+                    <div id="vlChart" style="margin-top: 16px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div style="margin-top: 8px"></div>
+                <div class="card" style="padding: 8px;">
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab-entitytype" role="tablist">
+                      <a class="nav-item nav-link active" id="nav-attributes-tab" data-toggle="tab"
+                        href="#nav-attributes" role="tab" aria-controls="nav-attributes"
+                        aria-selected="true">Attributes</a>
+                      <a class="nav-item nav-link" id="nav-records-tab" data-toggle="tab" href="#nav-records" role="tab"
+                        aria-controls="nav-records" aria-selected="false">Records</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent-entitytype">
+                    <div class="tab-pane fade show active" id="nav-attributes" role="tabpanel"
+                      aria-labelledby="nav-attributes-tab">
+                      <div style="margin-top: 8px;"></div>
+                      <div id="controlPanel">
+                        <div>
+                          <label for="nodeColorSelect"><b>Node Color:</b></label>
+                          <select name="nodeColorSelect" id="nodeColorSelect">
+                            <option value="quality_insights">Data Quality</option>
+                            <option value="usage_insights">Data Usage</option>
+                          </select>&nbsp;&nbsp;
+                          <button class="btn btn-sm" id="recenterTreeBtn">Recenter</button>&nbsp;&nbsp;
+                          <button class="btn btn-sm" id="expandTreeBtn">Expand All</button>&nbsp;&nbsp;
+                          <button class="btn btn-sm" id="collapseTreeBtn">Collapse All</button>&nbsp;&nbsp;
+                          <div style="display:inline-block; float: right;">
+                            <b>Score:</b>&nbsp;
+                            <span><i class="fa fa-circle text-success"></i>&nbsp;High (&ge;90)</span>&nbsp;&nbsp;
+                            <span><i class="fa fa-circle text-warning"></i>&nbsp;Medium (&ge;68)</span>&nbsp;&nbsp;
+                            <span><i class="fa fa-circle text-danger"></i>&nbsp;Low</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="tree-container"></div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-records" role="tabpanel" aria-labelledby="nav-records-tab">
+                      <div style="margin-top: 8px;"></div>
+                      Records will come here.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="dataEfficacyThresholds.js"></script>
+  <script src="datasetEfficacyCard.js"></script>
+  <script src="attributeTree.js"></script>
+  <script src="dataLakeView.js"></script>
+
+</body>
+
+</html>

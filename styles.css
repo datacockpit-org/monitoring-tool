@@ -1,0 +1,168 @@
+/* Tooltip */
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  /* Northward tooltips */
+  .d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+  
+  /* Eastward tooltips */
+  .d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+  }
+  
+  /* Southward tooltips */
+  .d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+  
+  /* Westward tooltips */
+  .d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+.templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+}
+
+.ghostCircle.show {
+    display: block;
+}
+
+.ghostCircle,
+.activeDrag .ghostCircle {
+    display: none;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    /* text-align: center; */
+    width: 450px;
+    height: 250px;
+    padding: 16px;
+    padding-bottom: 0;
+    background: rgba(250, 250, 250, 1);
+    border: 1px solid #555;
+    border-radius: 0;
+    pointer-events: none;
+}
+
+/* CSV Table Classes */
+TABLE.CSVTable {
+    font: 0.8em Verdana, Arial, Geneva, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Header */
+TABLE.CSVTable THEAD TR {
+    background: #E8EDFF;
+}
+
+/* Table Cells */
+TABLE.CSVTable TD,
+TABLE.CSVTable TH {
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid #FFFFFF;
+    white-space: nowrap;
+    border-top: 1px solid transparent;
+}
+
+/* Default background color for rows */
+TABLE.CSVTable TR {
+    background: #F0F0F0;
+}
+
+/* Background color for odd rows */
+TABLE.CSVTable TR.odd {
+    background: #F9F9F9;
+}
+
+/* Hover color for all rows */
+TABLE.CSVTable TR:hover {
+    background: #E8EDFF;
+}
+
+#controlPanel{
+    padding: 8px;
+    /* position: absolute; */
+    /* left: 8px;
+    top: 8px; */
+    width: 100%;
+}
+
+.badge{
+    font-size: 0.95rem;
+}
+
+.attributeListItem{
+    padding: 4px;
+}
+
+#list-container{
+    width: 100%;
+    padding: 8px;
+}
