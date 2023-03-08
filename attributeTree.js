@@ -21,7 +21,7 @@ $(document).ready(function(){
         const spec = {"$schema":"https://vega.github.io/schema/vega-lite/v5.json","description":"","data":{"values":[{"Date":"01-01-2021","Metric":"Completeness","Score":50},{"Date":"02-01-2021","Metric":"Completeness","Score":55},{"Date":"03-01-2021","Metric":"Completeness","Score":56},{"Date":"04-01-2021","Metric":"Completeness","Score":57},{"Date":"05-01-2021","Metric":"Completeness","Score":52},{"Date":"06-01-2021","Metric":"Completeness","Score":51},{"Date":"07-01-2021","Metric":"Completeness","Score":53},{"Date":"08-01-2021","Metric":"Completeness","Score":59},{"Date":"09-01-2021","Metric":"Completeness","Score":61},{"Date":"10-01-2021","Metric":"Completeness","Score":55},{"Date":"11-01-2021","Metric":"Completeness","Score":61},{"Date":"12-01-2021","Metric":"Completeness","Score":70},{"Date":"01-01-2021","Metric":"Correctness","Score":100},{"Date":"02-01-2021","Metric":"Correctness","Score":95},{"Date":"03-01-2021","Metric":"Correctness","Score":99},{"Date":"04-01-2021","Metric":"Correctness","Score":100},{"Date":"05-01-2021","Metric":"Correctness","Score":90},{"Date":"06-01-2021","Metric":"Correctness","Score":96},{"Date":"07-01-2021","Metric":"Correctness","Score":98},{"Date":"08-01-2021","Metric":"Correctness","Score":97},{"Date":"09-01-2021","Metric":"Correctness","Score":97},{"Date":"10-01-2021","Metric":"Correctness","Score":98},{"Date":"11-01-2021","Metric":"Correctness","Score":99},{"Date":"12-01-2021","Metric":"Correctness","Score":100},{"Date":"01-01-2021","Metric":"Objectivity","Score":100},{"Date":"02-01-2021","Metric":"Objectivity","Score":100},{"Date":"03-01-2021","Metric":"Objectivity","Score":100},{"Date":"04-01-2021","Metric":"Objectivity","Score":100},{"Date":"05-01-2021","Metric":"Objectivity","Score":100},{"Date":"06-01-2021","Metric":"Objectivity","Score":100},{"Date":"07-01-2021","Metric":"Objectivity","Score":100},{"Date":"08-01-2021","Metric":"Objectivity","Score":100},{"Date":"09-01-2021","Metric":"Objectivity","Score":100},{"Date":"10-01-2021","Metric":"Objectivity","Score":100},{"Date":"11-01-2021","Metric":"Objectivity","Score":100},{"Date":"12-01-2021","Metric":"Objectivity","Score":100},{"Date":"01-01-2021","Metric":"Overall Quality","Score":83},{"Date":"02-01-2021","Metric":"Overall Quality","Score":83},{"Date":"03-01-2021","Metric":"Overall Quality","Score":85},{"Date":"04-01-2021","Metric":"Overall Quality","Score":85},{"Date":"05-01-2021","Metric":"Overall Quality","Score":77},{"Date":"06-01-2021","Metric":"Overall Quality","Score":82},{"Date":"07-01-2021","Metric":"Overall Quality","Score":83},{"Date":"08-01-2021","Metric":"Overall Quality","Score":85},{"Date":"09-01-2021","Metric":"Overall Quality","Score":86},{"Date":"10-01-2021","Metric":"Overall Quality","Score":84},{"Date":"11-01-2021","Metric":"Overall Quality","Score":86},{"Date":"12-01-2021","Metric":"Overall Quality","Score":90}]},"width":420,"mark":{"type":"line","point":true},"encoding":{"x":{"field":"Date","axis":{"labelAngle":-20,"titleFontSize":14,"labelFontSize":12}},"y":{"field":"Score","type":"quantitative","axis":{"titleFontSize":14,"labelFontSize":12}},"color":{"field":"Metric","type":"nominal"}},"layer":[{"mark":{"type":"line","point":true}},{"mark":{"type":"text","align":"left","baseline":"middle","dx":0,"dy":10},"encoding":{"text":{"field":"Score","type":"quantitative"},"color":{"condition":{"test":"datum['Date'] == '12-01-2021'","value":"black"},"value":null}}}],"config":{"legend":{"orient":"top","labelFontSize":14,"title":null}}};
         vegaEmbed('#vlChart', spec, {actions: false}).then(function(result) {
 
-        }).catch(console.error);        
+        }).catch(console.error);
     }
 
     $('#nav-tab-main a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -39,7 +39,7 @@ $(document).ready(function(){
         }
     });
 
-    d3.json("data/attribute_tree.json", function (error, parsedData) {
+    d3.json("data/attribute_tree_2.json", function (error, parsedData) {
         treeData = parsedData;
         // By default, render tree
         // renderTree(treeContainerId);
@@ -87,7 +87,7 @@ $(document).ready(function(){
                                     <span>
                                         <i class="fas fa-circle text-secondary"></i>
                                     </span>&nbsp;${d[insight][metric]["name"]}
-                                </h6>                           
+                                </h6>
                             </div>`
                             metricsHTML += metricDiv;
                         });
@@ -109,7 +109,7 @@ $(document).ready(function(){
                         </div>
                         ${metricsHTML}
                     </div>`;
-                });                
+                });
             }
 
             return `<h6>${d.name}</h6>
@@ -124,7 +124,7 @@ $(document).ready(function(){
             // }else{
             // }
         });
-    
+
         function visit(parent, visitFn, childrenFn) {
             if (!parent) return;
 
@@ -337,7 +337,7 @@ $(document).ready(function(){
                 d.children.forEach(expand);
                 d._children = null;
             }
-        }        
+        }
 
         var overCircle = function (d) {
             selectedNode = d;
