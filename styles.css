@@ -9,7 +9,7 @@
     border-radius: 2px;
     pointer-events: none;
   }
-  
+
   /* Creates a small triangle extender for the tooltip */
   .d3-tip:after {
     box-sizing: border-box;
@@ -21,7 +21,7 @@
     position: absolute;
     pointer-events: none;
   }
-  
+
   /* Northward tooltips */
   .d3-tip.n:after {
     content: "\25BC";
@@ -30,7 +30,7 @@
     left: 0;
     text-align: center;
   }
-  
+
   /* Eastward tooltips */
   .d3-tip.e:after {
     content: "\25C0";
@@ -38,7 +38,7 @@
     top: 50%;
     left: -8px;
   }
-  
+
   /* Southward tooltips */
   .d3-tip.s:after {
     content: "\25B2";
@@ -47,7 +47,7 @@
     left: 0;
     text-align: center;
   }
-  
+
   /* Westward tooltips */
   .d3-tip.w:after {
     content: "\25B6";
@@ -100,7 +100,8 @@
     position: absolute;
     /* text-align: center; */
     width: 450px;
-    height: 250px;
+    /* height: 250px; */ /* commented */
+    margin-top: -75px !important; /* added this */
     padding: 16px;
     padding-bottom: 0;
     background: rgba(250, 250, 250, 1);

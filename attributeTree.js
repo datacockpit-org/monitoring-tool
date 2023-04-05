@@ -5,6 +5,19 @@ $(document).ready(function(){
     root = null;
     treeContainerId = "#tree-container";
 
+    fetch('http://127.0.0.1:5000/dcp_dataset_usage', {
+    method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+        treeData = JSON.parse(JSON.stringify(data));
+        })
+        .catch(error => console.error(error));
+
     function compute_mean(name,obj){
         var totalSum = 0;
         var totalKeys = 0;
@@ -32,18 +45,17 @@ $(document).ready(function(){
             setTimeout(function(){
                 if ($(treeContainerId).is(':empty')){
                     renderTree(treeContainerId);
-
                     createVegaLiteChart();
                 }
             }, 100);
         }
     });
 
-    d3.json("data/attribute_tree_2.json", function (error, parsedData) {
-        treeData = parsedData;
-        // By default, render tree
-        // renderTree(treeContainerId);
-    });
+    // d3.json("data/attribute_tree_2.json", function (error, parsedData) {
+    //     treeData = parsedData;
+    //     // By default, render tree
+    //     // renderTree(treeContainerId);
+    // });
 
     function renderTree(containerId){
         $(containerId).empty();

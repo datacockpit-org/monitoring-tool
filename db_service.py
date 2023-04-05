@@ -1,13 +1,17 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template, abort
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS, cross_origin
 
 import psycopg2
 import yaml
 from random import randint
+from jinja2 import TemplateNotFound
 
 with open('credentials.yml', 'r') as f:
     credentials = yaml.safe_load(f)
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # e.g. postgres://surya:1234@localhost:5432/surya
 app.config['SQLALCHEMY_DATABASE_URI'] = \
@@ -49,21 +53,13 @@ def get_users():
 
 
 @app.route('/dcp_dataset_usage')
+@cross_origin()
 def get_dcp_dataset_usages():
     dcp_du = dcp_dataset_usage.query.all()
     print("Number of responses: ", len(dcp_du))
     result = {"name": "dcp_dataset_usage"}
     rows = []
     for du in dcp_du[:10]:
-        # rows.append({
-        #     'database': du.database,
-        #     'dataset': du.dataset,
-        #     'query_count': du.query_count,
-        #     'unique_user_count': du.unique_user_count,
-        #     'dataset_usage_frequency_score': du.dataset_usage_frequency_score,
-        #     'no_of_unique_users_score': du.no_of_unique_users_score,
-        #     'overall_dataset_usage_score':du.overall_dataset_usage_score
-        # })
         rows.append({
             "name": f"{du.database}.{du.dataset}",
             "is_leaf": True,
