@@ -5,7 +5,7 @@ $(document).ready(function(){
     root = null;
     treeContainerId = "#tree-container";
 
-    fetch('http://127.0.0.1:5000/dcp_dataset_usage', {
+    fetch('http://127.0.0.1:5000/get_all', {
     method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

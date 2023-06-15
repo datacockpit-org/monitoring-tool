@@ -1,0 +1,1245 @@
+{
+  "children": [
+    {
+      "is_leaf": true,
+      "name": "01org_virtual-storage-manager.metrics",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 14
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 14
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 14
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 2
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 2
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "01org_virtual-storage-manager.migrate_version",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "01org_virtual-storage-manager.mysql.user",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 14
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 14
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 2
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "01org_virtual-storage-manager.storage_groups",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.approvals",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.gsa18f_procurements",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 21
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 21
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 21
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 3
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 3
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.observations",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.proposals",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 28
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 21
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 28
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 4
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 3
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.steps",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 56
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 35
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 56
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 8
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 5
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.users",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 14
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 14
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 14
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 2
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 2
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "18F_C2.versions",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "42mate_towel.table",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.$subquery",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.experience_titles",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.level_experience",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.mail",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 35
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 21
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 35
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 5
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 3
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.message",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 28
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 14
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 28
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 4
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 2
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.news",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 21
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 21
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 21
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 3
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 3
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.preferences",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 7
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 7
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 7
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 1
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 1
+        }
+      }
+    },
+    {
+      "is_leaf": true,
+      "name": "593141477_bashu-onlinejudge.privilege",
+      "quality_insights": {
+        "completeness": {
+          "description": "Completeness",
+          "name": "Completeness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "correctness": {
+          "description": "Correctness",
+          "name": "Correctness",
+          "unit": "%",
+          "value": 100.0
+        },
+        "overall": {
+          "description": "Overall",
+          "name": "Overall",
+          "unit": "%",
+          "value": 100.0
+        },
+        "uniqueness": {
+          "description": "Uniqueness",
+          "name": "Uniqueness",
+          "unit": "%",
+          "value": 100.0
+        }
+      },
+      "usage_insights": {
+        "dataset_usage_frequency_score": {
+          "description": "Dataset usage frequency score",
+          "name": "dataset_usage_frequency_score",
+          "unit": "",
+          "value": 14
+        },
+        "no_of_unique_users_score": {
+          "description": "Unique users score",
+          "name": "no_of_unique_users_score",
+          "unit": "",
+          "value": 14
+        },
+        "overall_dataset_usage_score": {
+          "description": "Overall dataset usage score",
+          "name": "overall_dataset_usage_score",
+          "unit": "",
+          "value": 14
+        },
+        "query_count": {
+          "description": "Count of queries",
+          "name": "query_count",
+          "unit": "",
+          "value": 2
+        },
+        "unique_user_count": {
+          "description": "Count of unique users",
+          "name": "unique_user_count",
+          "unit": "",
+          "value": 2
+        }
+      }
+    }
+  ],
+  "name": "dcp_dataset_usage"
+}
