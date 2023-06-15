@@ -6,17 +6,35 @@ $(document).ready(function(){
     treeContainerId = "#tree-container";
 
     fetch('http://127.0.0.1:5000/get_all', {
-    method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*'
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        } else {
+            throw new Error('Network response was not OK');
+        }
+    })
+    .then(data => {
         treeData = JSON.parse(JSON.stringify(data));
-        })
-        .catch(error => console.error(error));
+    })
+    .catch(error => {
+        console.error(error);
+
+        // Read JSON file directly in case of an error
+        fetch('data/response.json')
+            .then(response => response.json())
+            .then(data => {
+                treeData = JSON.parse(JSON.stringify(data));
+            })
+            .catch(error => console.error('Error while reading JSON file:', error));
+    });
+
+
 
     function compute_mean(name,obj){
         var totalSum = 0;
