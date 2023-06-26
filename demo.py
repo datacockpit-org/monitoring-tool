@@ -9,7 +9,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Configure the SQLite database
 # CHANGE THE FOLLOWING TO YOUR SQLITE DB PATH:
-database_path = '/Users/YOURUSERNAME/mydatabase.db'
+database_path = '/Users/suryashekharchakraborty/mydatabase.db'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + database_path
 
 if database_path == '/Users/YOURUSERNAME/mydatabase.db':
@@ -37,7 +37,7 @@ class record_metrics(db.Model):
 class attribute_metrics(db.Model):
     db_name = db.Column(db.String(100), primary_key=True)
     table_name = db.Column(db.String(100), primary_key=True)
-    attribute_name = db.Column(db.Integer)
+    attribute_name = db.Column(db.Integer, primary_key=True)
     timestamp = db.Column(db.DateTime)
     uniqueness = db.Column(db.Float)
     completeness = db.Column(db.Float)
@@ -137,6 +137,7 @@ def get_dcp_dataset_usages():
 def get_subset():
     dcp_du = dcp_dataset_usage.query.all()
     att_mets = attribute_metrics.query.all()
+    print(att_mets[0])
     print("Number of responses: ", len(dcp_du))
     result = {"name": "dcp_dataset_usage"}
     rows = []
