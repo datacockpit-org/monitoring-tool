@@ -3,18 +3,17 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS, cross_origin
 import yaml
 from random import randint
-
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-# Load credentials from YAML file
-with open('credentials.yml', 'r') as f:
-    credentials = yaml.safe_load(f)
-
 # Configure the SQLite database
-database_path = '/Users/user_name/mydatabase.db'
+# CHANGE THE FOLLOWING TO YOUR SQLITE DB PATH:
+database_path = '/Users/YOURUSERNAME/mydatabase.db'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + database_path
+
+if database_path == '/Users/YOURUSERNAME/mydatabase.db':
+    print("Did you remember to change the database path?")
 
 db = SQLAlchemy(app)
 
@@ -133,9 +132,9 @@ def get_dcp_dataset_usages():
 
 # For the sake of the demo, we are combining the output of handcrafted data for quality
 # and DBDEO data for usage.
-@app.route('/get_all')
+@app.route('/get_subset')
 @cross_origin()
-def get_all():
+def get_subset():
     dcp_du = dcp_dataset_usage.query.all()
     att_mets = attribute_metrics.query.all()
     print("Number of responses: ", len(dcp_du))
@@ -210,6 +209,83 @@ def get_all():
 
 
 
+
+# For the sake of the demo, we are combining the output of handcrafted data for quality
+# and DBDEO data for usage.
+@app.route('/get_all')
+@cross_origin()
+def get_all():
+    dcp_du = dcp_dataset_usage.query.all()
+    att_mets = attribute_metrics.query.all()
+    print("Number of responses: ", len(dcp_du))
+    result = {"name": "dcp_dataset_usage"}
+    rows = []
+    for i in range(len(dcp_du)-1):
+        du, am = dcp_du[i%len(dcp_du)], att_mets[i%len(att_mets)] # to prevent overflow
+        rows.append({
+            "name": f"{du.database}.{du.dataset}",
+            "is_leaf": True,
+            "usage_insights": {
+                "query_count": {
+                    "name": "query_count",
+                    "unit": "",
+                    "description": "Count of queries",
+                    "value": du.query_count
+                },
+                "unique_user_count": {
+                    "name": "unique_user_count",
+                    "unit": "",
+                    "description": "Count of unique users",
+                    "value": du.unique_user_count
+                },
+                "dataset_usage_frequency_score": {
+                    "name": "dataset_usage_frequency_score",
+                    "unit": "",
+                    "description": "Dataset usage frequency score",
+                    "value": du.dataset_usage_frequency_score
+                },
+                "no_of_unique_users_score": {
+                    "name": "no_of_unique_users_score",
+                    "unit": "",
+                    "description": "Unique users score",
+                    "value": du.no_of_unique_users_score
+                },
+                "overall_dataset_usage_score": {
+                    "name": "overall_dataset_usage_score",
+                    "unit": "",
+                    "description": "Overall dataset usage score",
+                    "value": du.overall_dataset_usage_score
+                }
+            },
+            "quality_insights": {
+                "correctness": {
+                    "name": "Correctness",
+                    "unit": "%",
+                    "description": "Correctness",
+                    "value": am.correctness,
+                },
+                "completeness": {
+                    "name": "Completeness",
+                    "unit": "%",
+                    "description": "Completeness",
+                    "value": am.completeness,
+                },
+                "uniqueness": {
+                    "name": "Uniqueness",
+                    "unit": "%",
+                    "description": "Uniqueness",
+                    "value": am.uniqueness,
+                },
+                "overall": {
+                    "name": "Overall",
+                    "unit": "%",
+                    "description": "Overall",
+                    "value": am.overall,
+                }
+            }
+        })
+    result["children"] = rows
+    return jsonify(result)
 if __name__ == '__main__':
     app.run(debug=True)
 

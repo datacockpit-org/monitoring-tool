@@ -6,11 +6,13 @@ Using DataCockpit ([source](https://github.com/datacockpit-org/datacockpit)), we
 
 The **Data Lake View** lists all datasets in the data lake; the **Dataset View** provides additional information (e.g., a preview) about a specific dataset (a), corresponding quality and usage scores (b), temporal evolution of these scores (c), and an interactive visualization showing attribute and record-level quality and usage information (d).
 
-<br/> 
+<br/>
 
 ## Setup and Run
-- Start a simple webserver `python -m SimpleHTTPServer 8080` or `python3 -m http.server 8080`
-- Open your favorite browser and point to `http://localhost:8080`
+- Check out `demo.py` and replace the database name with yours, to set up the database server
+- Run `python demo.py` and ensure the server is up. You can try running in your terminal: `curl -o data/attribute_tree.json http://127.0.0.1:5000/get_all` and check the response yourself to ensure everything's working per expectation
+- Keeping that server running, start another simple webserver `python -m SimpleHTTPServer 8080` or `python3 -m http.server 8080` from the `datacockpit-org/monitoring-tool` location
+- Open your favorite browser and go to `http://localhost:8080`
 - Enjoy!!
 
 <br/>
